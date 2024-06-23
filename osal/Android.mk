@@ -11,6 +11,7 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_PRELINK_MODULE := false
 LOCAL_MODULE := libExynosOMX_SkypeHD_Enc
+LOCAL_VENDOR_MODULE := true
 
 LOCAL_CFLAGS := \
     -Wno-enum-conversion \

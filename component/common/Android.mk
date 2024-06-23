@@ -8,6 +8,7 @@ LOCAL_SRC_FILES := \
 	Exynos_OMX_Baseport.c
 
 LOCAL_MODULE := libExynosOMX_Basecomponent
+LOCAL_VENDOR_MODULE := true
 
 LOCAL_CFLAGS := \
     -Wno-enum-conversion \
